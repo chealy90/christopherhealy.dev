@@ -1,0 +1,71 @@
+[
+{
+  className = "Math",
+  classID = "M101",
+  classTeacher = "Mr. Byrne",
+  imageURL = "https://static.vecteezy.com/system/resources/previews/045/316/145/non_2x/math-symbols-icon-symbol-png.png",
+  classTimes = mutableListOf("Mon 9:00", "Wed 9:00"),
+  totalClasses = 20,
+  present = 18,
+  late = 1,
+  absent = 1
+},
+
+{
+  className = "English",
+  classID = "E102",
+  classTeacher = "Ms. Clark",
+  imageURL = "https://tse1.mm.bing.net/th/id/OIP.NSdvsx0sZT10txJdSkQ3fwHaGU?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+  classTimes = mutableListOf("Tue 11:00", "Thu 11:00"),
+  totalClasses = 22,
+  present = 20,
+  late = 1,
+  absent = 1
+},
+{
+  className = "Science",
+  classID = "S103",
+  classTeacher = "Dr. Kelly",
+  imageURL = "https://tse3.mm.bing.net/th/id/OIP.myYE-Hjenp_zTb71AlJFigHaH_?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+  classTimes = mutableListOf("Mon 13:00", "Wed 13:00"),
+  totalClasses = 18,
+  present = 17,
+  late = 0,
+  absent = 1
+},
+{
+  className = "History",
+  classID = "H104",
+  classTeacher = "Mr. O'Neill",
+  imageURL = "https://tse2.mm.bing.net/th/id/OIP._x_eWdyi0cCa9d1wHj3q0QHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+  classTimes = mutableListOf("Tue 14:00"),
+  totalClasses = 15,
+  present = 14,
+  late = 1,
+  absent = 0
+},
+{
+  className = "Art",
+  classID = "A105",
+  classTeacher = "Ms. Walsh",
+  imageURL = "https://tse4.mm.bing.net/th/id/OIP.JJlqNGhRWUgR7o2N3BcxDwHaE1?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+  classTimes = mutableListOf("Fri 10:00"),
+  totalClasses = 12,
+  present = 12,
+  late = 0,
+  absent = 0    
+},
+{
+  className = "PE",
+  classID = "P106",
+  classTeacher = "Mr Murphy",
+  imageURL = "https://tse4.mm.bing.net/th/id/OIP.XuUYSAWC3SfGe2XfrkNEAgHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+  classTimes = mutableListOf("Thu 15:00"),
+  totalClasses = 16,
+  present = 15,
+  late = 0,
+  absent = 1
+}
+  
+
+]
