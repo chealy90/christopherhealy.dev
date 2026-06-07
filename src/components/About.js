@@ -9,9 +9,12 @@ function About() {
       <div id="typewriter-container">
         <Typewriter
           options={{
-            strings: ["Automation", "Full-stack", "IoT"],
+            strings: ["Automation", "Full-stack", "Web Development"],
             autoStart: true,
-            loop: true
+            loop: true,
+            delay: 70,
+            deleteSpeed: 50,
+            pauseFor: 1500
           }}
         />
       </div>
