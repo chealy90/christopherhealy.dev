@@ -15,9 +15,9 @@ function Header() {
 
       <nav>
         <ul>
-          <li className="nav-link"><a>About</a></li>
-          <li className="nav-link"><a>Experience</a></li>
-          <li className="nav-link"><a>Contact</a></li>
+          <li className="nav-link"><a href="#about">About</a></li>
+          <li className="nav-link"><a href="#experience">Experience</a></li>
+          <li className="nav-link"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
