@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "EB Garamond", Times, serif;
+
 }
 
 #about #about-main-content {
@@ -44,3 +46,8 @@
     font-size: 1.6rem;
 }
 
+
+#about #about-main-content #about-photo img{
+    border-radius: 50%;
+    width: 300px;
+}

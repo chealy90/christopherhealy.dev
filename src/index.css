@@ -1,8 +1,9 @@
 body {
   margin: 0;
-    font-family: "EB Garamond", Times, serif;
   background: radial-gradient(circle at 0% 0%, #6d7486, #0a0d13);
   min-height: 100vh;
+  font-family: Roboto;
+  font-weight: 200;
 }
 
 code {
