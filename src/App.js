@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Header from './components/Header';
 import About from './components/About';
+import Experience from './components/Experience';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      <section id="experience">Experience</section>
+      <Experience />
       <section id="contact">Contact</section>
     </div>
   );
