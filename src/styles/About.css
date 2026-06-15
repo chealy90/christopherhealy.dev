@@ -23,8 +23,8 @@
 #about #about-main-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-inline: 100px;
+    justify-content: space-between;
+    padding-inline: 200px;
 }
 
 #about h2 {
