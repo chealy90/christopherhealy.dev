@@ -25,7 +25,7 @@ function About() {
       <div id="about-main-content">
         <div id="about-info">
           <span className="section-header-span">
-            <FontAwesomeIcon icon={faLightbulb}/>
+            <FontAwesomeIcon icon={faLightbulb} size="2xl"/>
             <h2>About Me</h2>
           </span>
           <p>

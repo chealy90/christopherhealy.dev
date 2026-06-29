@@ -29,7 +29,7 @@ function Experience() {
     <section id="experience">
       <div className="experience-main-content">
         <span className="section-header-span">
-          <FontAwesomeIcon icon={faBriefcase} />
+          <FontAwesomeIcon icon={faBriefcase} size="2xl"/>
           <h2>Experience</h2>
         </span>
 
