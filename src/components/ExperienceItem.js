@@ -3,7 +3,7 @@ import "../styles/ExperienceItem.css"
 function ExperienceItem(props) {
 
   return (
-    <div className="experience-item">
+    <div className="experience-item fade-up">
       <div className="experience-item-header">
         <img src={props.job.companyLogo
           

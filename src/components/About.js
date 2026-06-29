@@ -12,7 +12,7 @@ function About() {
       <div id="typewriter-container">
         <Typewriter
           options={{
-            strings: ["Automation", "Full-stack", "Embedded Systems"],
+            strings: ["Automation", "Full-stack", "Web Development"],
             autoStart: true,
             loop: true,
             delay: 70,
@@ -38,7 +38,7 @@ function About() {
           </p>
         </div>
         <div id="about-photo">
-          <img src="https://thf.bing.com/th/id/OIP.bJpr9jpclIkXQT-hkkb1KQHaHa?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+          <img src="/amd_photo_square.jpg" alt="" />
         </div>
       </div>
 
