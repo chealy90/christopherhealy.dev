@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     padding-inline: 0;
+    margin-block: 25px;
+    font-size: 1.5rem;
 }
 
 .experience-item-header {
@@ -11,6 +13,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    padding-inline: 0;
 }
 
 .experience-item-logo {
@@ -18,7 +21,49 @@
     margin-right: 50px; 
 }
 
+.experience-item-company {
+    min-width: 70%;
+}
+
 .experience-item-company-row2 {
     display: flex;
     justify-content: space-between;
+}
+
+.experience-item-body {
+    margin-block: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.experience-item-body .experience-main-info {
+    width: 60%;
+}
+
+.experience-item-body .experience-main-info li{
+    margin-block: 20px;
+    line-height: 2rem;    
+}
+
+.experience-item-body .experience-key-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;  
+}
+
+.experience-item-body .experience-key-skills .experience-skill-bubble {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #0a0d13;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-align: center;
+    margin-block: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+    min-width: 250px;
+    
 }
