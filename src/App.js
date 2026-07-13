@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <About />
       <Experience />
-      <section id="contact">Contact</section>
+      <Contact />
     </div>
   );
 }
