@@ -2,6 +2,8 @@ import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 
+
+import "../styles/Contact.css"
 import FormGroup from "./FormGroup"
 
 function Contact() {
@@ -24,12 +26,9 @@ function Contact() {
     return (
         <section id="contact">
             <div className="contact-main-content">
-                <span className="section-header-span">
-                    <FontAwesomeIcon icon={faPhone} size="2xl" />
-                    <h2>Experience</h2>
-                </span>
+               
 
-                <p>Want to know more?</p>
+                <p className="contact-call-to-action">Want to know more?</p>
                 <div className="contact-form-container">
                     <form
                         action="https://formspree.io/f/mdaqoykd"
@@ -62,6 +61,7 @@ function Contact() {
                             placeholder="Tell me more about..."
                             name="query"
                             label="Your Message"
+                            textarea
                         />
 
 

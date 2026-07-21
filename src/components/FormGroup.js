@@ -1,8 +1,10 @@
+import "../styles/FormGroup.css"
+
 function FormGroup(props) {
 
 
     return (
-        <div>
+        <div className="formGroup">
             <label>{props.label}:</label>
             {
                 props.textarea &&
