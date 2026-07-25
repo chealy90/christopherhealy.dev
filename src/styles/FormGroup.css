@@ -12,11 +12,11 @@
 }
 
 .formGroup label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .formGroup input, .formGroup textarea {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 100%;
     line-height: 1.1rem;
     padding: 10px 10px;
@@ -31,8 +31,8 @@
 }
 
 button {
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 60px;
     font-size: 1.8rem;
     background-color: #6d7486;
     color: #eee;

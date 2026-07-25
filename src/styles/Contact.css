@@ -24,7 +24,7 @@
 
 .contact-form-container {
     background-color: #6d748692;
-    width: 60%;
+    width: 50%;
     margin: 50px auto;
     padding: 20px;
     display: flex;
@@ -44,7 +44,7 @@
 
 
 .contact-form-container form h3 {
-    font-size: 2.75rem;
+    font-size: 2rem;
     margin-block: 50px;
     font-weight: 400;
 }

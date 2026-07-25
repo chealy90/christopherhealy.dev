@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+    padding-inline: 200px;
+}
+
+.footer-links-list > *{
+    margin-inline: 10px;
+}
+
+.footer-text-info {
+    display: flex;
+
+}
+
+.footer-text-info > * {
+    margin-inline: 20px;
+}
