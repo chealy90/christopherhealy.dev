@@ -1,13 +1,12 @@
 import "../styles/ExperienceItem.css"
 
+
 function ExperienceItem(props) {
 
   return (
     <div className="experience-item fade-up">
       <div className="experience-item-header">
-        <img src={props.job.companyLogo
-          
-        } alt="" className="experience-item-logo"/>
+        <img src={props.job.companyLogo} alt="" className="experience-item-logo"/>
         <div className="experience-item-company">
           <div className="experience-item-company-row1">
             <h3>{props.job.jobTitle}</h3>
@@ -22,7 +21,7 @@ function ExperienceItem(props) {
       <div className="experience-item-body">
         <div className="experience-main-info">
           <ul>
-            {props.job.keyPoints.map(point => <li>{point}</li>)}
+            {props.job.keyPoints.map(point => <li dangerouslySetInnerHTML={{ __html: point }}/>)}
           </ul>
         </div>
         <div className="experience-key-skills">

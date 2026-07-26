@@ -6,7 +6,7 @@
     justify-content: flex-start;
     color: #fff;
     padding-inline: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .contact-main-content {
@@ -19,7 +19,7 @@
 
 .contact-call-to-action {
     margin: auto;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .contact-form-container {
@@ -45,8 +45,24 @@
 
 .contact-form-container form h3 {
     font-size: 2rem;
-    margin-block: 50px;
+    margin-block: 40px;
     font-weight: 400;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.form-submit-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 1.6rem;
+}
+
+.form-submit-success p {
+    margin-top: 20px;
 }
 
 

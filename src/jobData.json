@@ -2,7 +2,7 @@
     {
         "companyName": "AMD",
         "jobTitle": "Automation Engineering Intern",
-        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQFCdxxVA_xhqQ/company-logo_100_100/B56ZnuIjafHUAU-/0/1760636844195/amd_logo?e=1782950400&v=beta&t=I1aRpl7wBhDNclkN93r_4o03sfp1IS2uX-dwWhhDbNc",
+        "companyLogo": "amd_logo.jpeg",
         "startDate": "June 2026",
         "endDate": "Present",
         "keyPoints": [
@@ -13,13 +13,13 @@
         "skills": [
             "Robotic Process Automation",
             "UiPath Studio",
-            "Agentic AI Development"
+            "Agentic Automation"
         ]
     },
     {
         "companyName": "Regulated Software Research Centre",
         "jobTitle": "Software Engineering Intern",
-        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHeVUHh3G0ffg/company-logo_100_100/company-logo_100_100/0/1630569180455?e=1782950400&v=beta&t=D80WiLdlhYnniFNSsG7RyWJnuncZG2sZjeVU-I3SlLw",
+        "companyLogo": "rsrc_logo.jpeg",
         "startDate": "Jan 2026",
         "endDate": "May 2026",
         "keyPoints": [

@@ -25,16 +25,20 @@ function About() {
       <div id="about-main-content">
         <div id="about-info">
           <span className="section-header-span">
-            <FontAwesomeIcon icon={faLightbulb} size="2xl"/>
+            <FontAwesomeIcon icon={faLightbulb} size="xl"/>
             <h2>About Me</h2>
           </span>
           <p>
-            I'm a junior dev primarily focused in full-stack development, automation, and embedded systems. In 2023, I officially entered the world of software with a QQI Level 5 at Cavan Institute.
-            I'm now most of the way through an B.Sc. at Dundalk Institute of Technology, and seeking a role in the progression of technology.
+            I'm a junior dev primarily focused in full-stack development, automation, and web development. In 2023, I officially entered the world of software with a QQI Level 5 at Cavan Institute.
           </p>
+
+          <p>I'm now in the final year of a B.Sc. at Dundalk Instiute of Technology, and an AMD intern.</p>
           <p>
-            My key competencies are MERN stack development, UiPath automation, Java, Python, and C++, as well as a wide range of dev tools such as Git and Docker.
-            Professional development is something that is important to me so I always welcome the opportunity to take on new skills.
+            My key competencies are MERN stack development, UiPath automation, Java, Python, and <span style={{ whiteSpace: "nowrap" }}>C++</span>, as well as a wide range of dev tools such as Git and Docker.
+          </p>
+
+          <p>
+            Professional development is something that's important to me so I always welcome the opportunity to take on new skills and frameworks.
           </p>
         </div>
         <div id="about-photo">

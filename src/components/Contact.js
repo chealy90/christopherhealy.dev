@@ -9,7 +9,6 @@ import FormGroup from "./FormGroup"
 function Contact() {
     const [formData, setFormData] = useState({})
     const [submitted, setSubmitted] = useState(false)
-    const [submitError, setSubmitError] = useState({})
 
     const handleFormUpdate = (e) => {
         setFormData(() => ({ ...formData, [e.target.name]: e.target.value }))
@@ -19,6 +18,7 @@ function Contact() {
         e.preventDefault()
         e.target.submit()
         setFormData({})
+        setSubmitted(true)
 
 
 
@@ -28,59 +28,64 @@ function Contact() {
     return (
         <section id="contact">
             <div className="contact-main-content">
-
-
                 <p className="contact-call-to-action">Want to know more?</p>
-                {
-                    !submitted ?
-                    <div className="contact-form-container">
-                        <form
-                            action="https://formspree.io/f/mdaqoykd"
-                            method="post"
-                            onSubmit={e => handleSend(e)}
-                            target="_blank"
-                        >
-                            <h3>Send a Message</h3>
-                            <FormGroup
-                                type="text"
-                                value={formData?.name || ""}
-                                onChange={handleFormUpdate}
-                                placeholder="John Doe"
-                                name="name"
-                                label="Name"
-                            />
+                <div className="contact-form-container">
+                    <form
+                        action="https://formspree.io/f/mdaqoykd"
+                        method="post"
+                        onSubmit={e => handleSend(e)}
+                        target="_blank"
+                    >
+                        {
+                            submitted ?
+                                <div className="form-submit-success">
+                                    <FontAwesomeIcon icon={faCircleCheck} size="2x" />
+                                    <p>Your message has been sent.</p>
+                                </div> :
 
-                            <FormGroup
-                                type="text"
-                                value={formData?.email || ""}
-                                onChange={handleFormUpdate}
-                                placeholder="email@site.com"
-                                name="email"
-                                label="Email"
-                            />
+                                <>
+                                    <h3>Send a Message</h3>
+                                    <FormGroup
+                                        type="text"
+                                        value={formData?.name || ""}
+                                        onChange={handleFormUpdate}
+                                        placeholder="John Doe"
+                                        name="name"
+                                        label="Name"
+                                    />
 
-                            <FormGroup
-                                type="text"
-                                value={formData?.query || ""}
-                                onChange={handleFormUpdate}
-                                placeholder="Tell me more about..."
-                                name="query"
-                                label="Your Message"
-                                textarea
-                            />
+                                    <FormGroup
+                                        type="text"
+                                        value={formData?.email || ""}
+                                        onChange={handleFormUpdate}
+                                        placeholder="email@site.com"
+                                        name="email"
+                                        label="Email"
+                                    />
+
+                                    <FormGroup
+                                        type="text"
+                                        value={formData?.query || ""}
+                                        onChange={handleFormUpdate}
+                                        placeholder="Tell me more about..."
+                                        name="query"
+                                        label="Your Message"
+                                        textarea
+                                    />
 
 
-                            <button type="submit">Send</button>
-                        </form>
-                    </div> :
-                    <div className="form-submit-success">
-                        <FontAwesomeIcon icon={faCircleCheck} />
-                        <p>Your message has been sent.</p>
-                    </div>
-                }
+                                    <button type="submit">Send</button>
+                                </>
+                        }
+                    </form>
 
+
+
+
+
+
+                </div>
             </div>
-
         </section>
     )
 }

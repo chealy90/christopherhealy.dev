@@ -7,8 +7,12 @@
     color: #fff;
     padding-inline: 200px;
     margin-top: 150px;
+}
 
-
+#experience .section-header-span h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 20px;
 }
 
 #experience #experience-main-content {

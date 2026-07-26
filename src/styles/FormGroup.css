@@ -26,8 +26,9 @@
 }
 
 .formGroup textarea {
-    min-height: 200px;
+    min-height: 150px;
     font-family: Roboto;
+    resize: none;
 }
 
 button {
